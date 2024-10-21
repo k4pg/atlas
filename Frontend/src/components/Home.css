@@ -1,0 +1,22 @@
+.menu{
+    left: -100%;
+    position: fixed;
+    height: 100vh;
+    background-color: #facc15;
+    transition: 0.5s;
+    position: absolute;
+    top: 0px;
+    z-index: 11111;
+}
+.menu ul li {
+    list-style: none;
+    padding: 15px 40px;
+    color: black;
+    position: relative;
+    top: 50px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.activMenu{
+    left: 0%;
+}
